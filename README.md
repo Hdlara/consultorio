@@ -49,8 +49,8 @@ docker-compose up
 After the container started we will run the commands:
 
 ```
-docker-compose exec web python manage.py makemigrations
-docker-compose exec web python manage.py migrate
+python manage.py makemigrations
+python manage.py migrate
 ```
 
 <img width="381" alt="superuser" src="https://user-images.githubusercontent.com/58369362/178130058-ebf393af-efe2-4e84-a456-c28fa75d6508.png">
